@@ -30,6 +30,10 @@ main {
     padding: 2em;
 }
 
+#profile p{
+    justify-content: center;
+    width: 50%;
+}
 .profile-photo {
     display: block;
     margin: 0 auto 1em;
@@ -46,5 +50,5 @@ footer {
     padding: 1em;
     position: absolute;
     width: 100%;
-    bottom: 0;
+
 }

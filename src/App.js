@@ -8,12 +8,12 @@ function App() {
     useEffect(() => {
         const loadScripts = async () => {
             const script1 = document.createElement('script');
-            script1.src = '/cdn/npm/three@0.136.0/build/three.module.js';
+            script1.src = '/js/three.module.js';
             script1.type = 'module';
             document.body.appendChild(script1);
 
             const script2 = document.createElement('script');
-            script2.src = '/cdn/npm/@firecms/neat@0.2.2/dist/index.module.js';
+            script2.src = '/js/index.module.js';
             script2.type = 'module';
             document.body.appendChild(script2);
 

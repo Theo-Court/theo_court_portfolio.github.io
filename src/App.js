@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Background />
-      <Router>
+      <Router basename="/theo_court_portfolio.github.io">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cv" element={<CV />} />

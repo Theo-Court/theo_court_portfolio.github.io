@@ -1,0 +1,309 @@
+{
+    "competences": [
+      {
+        "id": "1",
+        "title": "Compétence 1",
+        "content": [
+          {
+            "type": "title",
+            "text": "Niveau 1"
+          },
+          {
+            "type": "title",
+            "text": "SAE 1-01 Création de reporting à partir de données stockées dans un SGBD relationnel"
+          },
+          {
+            "type": "paragraph",
+            "text": "Dans cette SAE nous avons dû créer un rapport contenant des graphiques obtenus en faisant des commandes SQL sur des données stockées dans un SGBD relationnel sur les accidents en Angleterre."
+          },
+          {
+            "type": "paragraph",
+            "text": "Cette SAE nous permet donc d'acquérir plusieurs points critiques:\n\n- Correctement interpréter et prendre en compte le besoin du commanditaire ou du client car nous avons besoins de comprendre ce que le client attend précisément\n- Respecter les formalismes de notations\n- Connaître la syntaxe des langages et savoir l'utiliser\n- Mesurer l'importance de maîtriser la structure des données à exploiter car il faut savoir si les données sont dans les mêmes unités, s'il y a des erreurs."
+          },
+          {
+            "type": "title",
+            "text": "Exemple de code SQL pour création de reporting avec des données d'un SGBD relationnel"
+          },
+          {
+            "type": "code",
+            "text": "SELECT \"weather_conditions\", SUM(\"number of casualties\") FROM \"accident\" GROUP BY \"weather_conditions\";\n\nSELECT COUNT(\"accident_index\"), \"age_of_driver\" FROM \"accident\" NATURAL JOIN \"vehicle\" WHERE \"age_of_driver\" >= \"10\" GROUP BY \"age_of_driver\";"
+          },
+          {
+            "type": "title",
+            "text": "SAE 1-02 Lecture/Ecriture fichiers"
+          },
+          {
+            "type": "paragraph",
+            "text": "Dans cette SAE nous avons dû créer un code permettant de lire des fichiers, trouver des erreurs de format de données et les corriger ou les supprimer puis les fusionner."
+          },
+          {
+            "type": "paragraph",
+            "text": "Cette SAE nous permet donc d'acquérir plusieurs points critiques:\n\n- Correctement interpréter et prendre en compte le besoin du commanditaire ou du client car nous avons besoins de comprendre ce que le client attend précisément\n- Respecter les formalismes de notations\n- Connaître la syntaxe des langages et savoir l'utiliser\n- Mesurer l'importance de maîtriser la structure des données à exploiter car il faut savoir si les données sont dans les mêmes unités, s'il y a des erreurs de format (texte, nombre, date, ...).\n- Comprendre les structures algorithmiques de base et leur contexte d'usage\n- Prendre conscience de l'intérêt de la programmation. La création d'un code permet de gagner du temps en automatisant le nettoyage des données"
+          },
+          {
+            "type": "title",
+            "text": "Exemple code Python pour lecture et écriture de fichiers"
+          },
+          {
+            "type": "code",
+            "text": "# Your Python code example here"
+          },
+          {
+            "type": "title",
+            "text": "SAE 2-01 Conception et implémentation BD"
+          },
+          {
+            "type": "paragraph",
+            "text": "Dans cette SAE nous avons dû créer une base de données permettant de stocker des données, empêcher des erreurs de format de données et rendre la base de données sécurisée."
+          },
+          {
+            "type": "paragraph",
+            "text": "Cette SAE nous permet donc d'acquérir plusieurs points critiques:\n\n- Correctement interpréter et prendre en compte le besoin du commanditaire ou du client car nous avons besoins de comprendre ce que le client attend précisément\n- Respecter les formalismes de notations\n- Connaître la syntaxe des langages et savoir l'utiliser, cela permet d'éviter d'avoir des erreurs et d'optimiser le code\n- Mesurer l'importance de maîtriser la structure des données à exploiter car il faut savoir si les données sont dans les mêmes unités, s'il y a des erreurs de format (texte, nombre, date, ...).\n- Comprendre les structures algorithmiques de base et leur contexte d'usage\n- Prendre conscience de l'intérêt de la programmation. La création d'un code permet de sécuriser les données qui vont être stockées dans la base de données."
+          },
+          {
+            "type": "title",
+            "text": "SAÉ 3.02 Intégration de données dans un datawarehouse"
+          },
+          {
+            "type": "paragraph",
+            "text": "Veuillez modifier ce bloc pour choisir son type"
+          },
+          {
+            "type": "title",
+            "text": "Exemple de code pour la création d'une base de données"
+          },
+          {
+            "type": "code",
+            "text": "# Your database creation code example here"
+          },
+          {
+            "type": "title",
+            "text": "Niveau 2"
+          },
+          {
+            "type": "title",
+            "text": "R 4-01 Automatisations et Test en Programmation"
+          },
+          {
+            "type": "paragraph",
+            "text": "Le but de cette ressource est de s'appuyer sur les compétences en programmation acquises au semestre précédent en se concentrant sur les aspects clés des procédures de test et leur mise en œuvre, et l'automatisation de ces procédures souvent requises lors du développement de solutions de décision d'affaires à compléter."
+          },
+          {
+            "type": "paragraph",
+            "text": "Les sujets abordés incluent :\n\n- Automatisez les tâches dans le processus décisionnel\n- Programmation système (batch)\n- Différents types de tests (unitaires, d'intégration, système, d'acceptation)\n- Production documentaire\n\nCette ressource complète la formation en développement informatique en mettant l'accent sur la phase de test du développement lors du déploiement d'un programme en production et sur l'importance de l'automatisation dans ce contexte."
+          },
+          {
+            "type": "title",
+            "text": "Niveau 3"
+          },
+          {
+            "type": "title",
+            "text": "Base de données NOSQL"
+          },
+          {
+            "type": "paragraph",
+            "text": "Veuillez modifier ce bloc pour choisir son type"
+          },
+          {
+            "type": "title",
+            "text": "PPP5"
+          },
+          {
+            "type": "paragraph",
+            "text": "Veuillez modifier ce bloc pour choisir son type"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Compétence 2",
+        "content": [
+          {
+            "type": "title",
+            "text": "Niveau 1"
+          },
+          {
+            "type": "title",
+            "text": "SAÉ 1-03 Préparation et synthèses"
+          },
+          {
+            "type": "paragraph",
+            "text": "Dans cette SAE nous avons créé un fichier dans lequel on a stocké nos heures de sommeil ainsi que d'autres facteurs pour les étudier. Cette collecte de données a duré 5 semaines."
+          },
+          {
+            "type": "paragraph",
+            "text": "Cette SAE nous permet donc d'acquérir plusieurs points critiques:\n\n- Réaliser que les sources de données ont des caractéristiques propres\n- Comprendre qu'une analyse correcte ne peut émaner que de données propres et préparées\n- Comprendre l'intérêt des synthèses numériques et graphiques pour décrire une variable statistique"
+          },
+          {
+            "type": "title",
+            "text": "Journal de Bord"
+          },
+          {
+            "type": "paragraph",
+            "text": "Tableau heures de sommeil"
+          },
+          {
+            "type": "title",
+            "text": "SAÉ 1-06 Mise en œuvre d’une enquête"
+          },
+          {
+            "type": "paragraph",
+            "text": "Dans cette SAE nous devions produire une enquête en groupe sur un sujet au choix. Nous avions choisi pour sujet"
+          },
+          {
+            "type": "paragraph",
+            "text": "Cette SAE nous permet donc d'acquérir plusieurs points critiques:\n\n- Réaliser que les sources de données ont des caractéristiques propres\n- Comprendre qu'une analyse correcte ne peut émaner que de données propres et préparées\n- Comprendre l'intérêt des synthèses numériques et graphiques pour décrire une variable statistique\n- Comprendre l'intérêt des synthèses pour mettre en évidence des liaisons entre variables"
+          },
+          {
+            "type": "title",
+            "text": "Rapport enquête"
+          },
+          {
+            "type": "title",
+            "text": "SAÉ 2-02 Estimation par sondage simple"
+          },
+          {
+            "type": "paragraph",
+            "text": "Dans cette SAE nous devions faire une estimation par sondage simple dans laquelle nous cherchions à estimer des valeurs au travers de différents calculs."
+          },
+          {
+            "type": "paragraph",
+            "text": "Cette SAE nous permet donc d'acquérir plusieurs points critiques:\n\n- Réaliser que les sources de données ont des caractéristiques propres\n- Comprendre qu'une analyse correcte ne peut émaner que de données propres et préparées\n- Comprendre l'intérêt de l'utilisation d'un modèle probabiliste\n- Appréhender la notion de fluctuation d'échantillonnage, notamment à l'aide de simulations probabilistes"
+          },
+          {
+            "type": "title",
+            "text": "Exemple d'estimation par sondage simple"
+          },
+          {
+            "type": "title",
+            "text": "SAÉ 2-03 Régression sur données réelles"
+          },
+          {
+            "type": "paragraph",
+            "text": "Dans cette SAE nous devions produire un rapport sur des données concernant la santé dans différents pays comme le nombre de morts infantiles, le nombre de morts adultes, la population, etc."
+          },
+          {
+            "type": "paragraph",
+            "text": "Cette SAE nous permet donc d'acquérir plusieurs points critiques:\n\n- Comprendre l'intérêt des synthèses pour mettre en évidence des liaisons entre variables"
+          },
+          {
+            "type": "title",
+            "text": "Rapport régression sur données réelles"
+          },
+          {
+            "type": "title",
+            "text": "Niveau 2"
+          },
+          {
+            "type": "title",
+            "text": "SAÉ 4.02 Reporting d'une analyse multivariée"
+          },
+          {
+            "type": "paragraph",
+            "text": "Concevoir et programmer des solutions de récupération de données adaptées aux besoins récurrents d'analyse de données exploratoires fait partie intégrante de la chaîne décisionnelle. Les diplômés doivent être capables de combiner ces deux aspects du traitement et de l'analyse des données au sein d'une entreprise ou d'une organisation.\n\nEn tant que data scientist, les étudiants sont chargés de l'identification des besoins, de l'extraction et de la préparation des données, du contrôle de la qualité, ainsi que de la proposition et de la mise en œuvre de modèles statistiques (régression, analyse factorielle, etc.) ou data science (machine learning, etc.). Résoudre les défis commerciaux. En outre, les résultats doivent être présentés sous forme de rapports utilisant des bibliothèques statistiques et de science des données appropriées.\n\nLes objectifs de cette activité d'apprentissage sont les suivants : Améliorer votre compréhension des enjeux du reporting en intégrant les rapports dans votre processus décisionnel ; Comprendre et comprendre les données d'entreprise en décrivant et classant les données à l'aide d'outils d'analyse et de présentation ; Faciliter les explications et soutenir les étudiants. Il vous guide à travers les étapes de préparation des données pour une analyse exploratoire multivariée tout en choisissant une méthode statistique appropriée."
+          },
+          {
+            "type": "title",
+            "text": "Niveau 3"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Compétence 3",
+        "content": [
+          {
+            "type": "title",
+            "text": "Niveau 1"
+          },
+          {
+            "type": "title",
+            "text": "SAE 1-04 Production données entreprise"
+          },
+          {
+            "type": "paragraph",
+            "text": "Dans cette SAE nous avons créé un rapport sur un secteur d'activité dans un territoire, dans notre cas la France, l'Auvergne et le Cantal."
+          },
+          {
+            "type": "paragraph",
+            "text": "Cette SAE nous permet donc d'acquérir plusieurs points critiques:\n\n- Identifier l'importance de contextualiser ses données\n- Mesurer l'importance de mettre en évidence des résultats clés par l’utilisation d'indicateurs pertinents\n- Lors de la restitution des résultats, mesurer l'importance d'expliciter également la démarche suivie"
+          },
+          {
+            "type": "title",
+            "text": "Rapport Production données entreprise"
+          },
+          {
+            "type": "title",
+            "text": "SAE 1-06 Enquête"
+          },
+          {
+            "type": "paragraph",
+            "text": "Dans cette SAE présentée auparavant, nous pouvons aussi acquérir les points critiques suivants:\n\n- Prendre connaissance des biais rencontrés dans la mise en place d'une enquête\n- Identifier l'importance de contextualiser ses données\n- Lors de la restitution des résultats, mesurer l'importance d'expliciter également la démarche suivie\n- Comprendre les intérêts de la data visualisation et de l'infographie\n- Mesurer l'importance d'une expression précise et nuancée dans la communication des résultats"
+          },
+          {
+            "type": "title",
+            "text": "SAE 2-04 Dataviz"
+          },
+          {
+            "type": "paragraph",
+            "text": "Dans cette SAE nous avons créé une visualisation des résultats grâce à Power BI."
+          },
+          {
+            "type": "paragraph",
+            "text": "Cette SAE nous permet donc d'acquérir plusieurs points critiques:\n\n- Identifier l'importance de contextualiser ses données\n- Lors de la restitution des résultats, mesurer l'importance d'expliciter également la démarche suivie\n- Comprendre les intérêts de la data visualisation et de l'infographie\n- Mesurer l'importance d'une expression précise et nuancée dans la communication des résultats"
+          },
+          {
+            "type": "title",
+            "text": "Exemple de présentation Power Bi"
+          },
+          {
+            "type": "title",
+            "text": "Niveau 2"
+          },
+          {
+            "type": "title",
+            "text": "Niveau 3"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Compétence 4",
+        "content": [
+          {
+            "type": "title",
+            "text": "Parcours « Science des données : visualisation, conception d'outils décisionnels »"
+          },
+          {
+            "type": "title",
+            "text": "SAÉ 3.VCOD.01 Collecte automatisée de données web"
+          },
+          {
+            "type": "paragraph",
+            "text": "Cette SAÉ a pour but de développer nos connaissances des spécifications des données web, le rôle d'une API (interface de programmation d'application) pour la récupération de données web et approfondir la réflexion demandée pour le processus de mise en œuvre de la structuration et l'alimentation d'un entrepôt de données grâce à la récupération de données web."
+          },
+          {
+            "type": "title",
+            "text": "SAÉ 4.VCOD.01 Développement d'un composant d'une solution décisionnelle"
+          },
+          {
+            "type": "paragraph",
+            "text": "L'objectif de cette SAÉ est la programmation modulaire joue un rôle clé en permettant des mises à niveau rapides et faciles. En tant que conseillers à la décision, les étudiants doivent concevoir et programmer divers composants qui s'intègrent harmonieusement aux logiciels utilisés pour la prise de décision. Il est essentiel d'assurer l'interopérabilité de ces composants au sein de la chaîne de décision. Le but de cette activité d'apprentissage est de : Sensibiliser les étudiants à l'importance de la programmation modulaire dans la chaîne décisionnelle et démontrer le besoin d'interopérabilité entre tous les composants des logiciels utilisés pour la prise de décision."
+          },
+          {
+            "type": "paragraph",
+            "text": "Cette SAÉ a été réalisée en deux phases. Vous trouverez ci-dessous les rapports des deux phases de la SAÉ."
+          },
+          {
+            "type": "title",
+            "text": "Phase 1"
+          },
+          {
+            "type": "title",
+            "text": "Phase 2"
+          }
+        ]
+      }
+    ]
+  }
+  

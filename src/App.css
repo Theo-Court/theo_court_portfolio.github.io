@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  #root {
+    position: relative;
+    z-index: 1;
+  }
+  
+  header, main, footer {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .logo span {
+    color: #FF5373;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  

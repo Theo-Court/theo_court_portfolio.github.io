@@ -1,0 +1,8 @@
+{
+    "homepage": "https://Theo-Court.github.io/ theo_court_portfolio.github.io",
+    "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    }
+  }
+  

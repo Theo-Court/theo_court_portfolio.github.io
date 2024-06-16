@@ -4,6 +4,7 @@ const dotenv = require('dotenv');
 
 // Load environment variables from .env file
 dotenv.config();
+console.log('PUBLIC_URL:', process.env.PUBLIC_URL);
 
 module.exports = {
   entry: './src/index.js',
@@ -35,7 +36,11 @@ module.exports = {
     extensions: ['.js', '.jsx']
   },
   devServer: {
-    contentBase: path.join(__dirname, 'public'),
+    static: {
+      directory: path.join(__dirname, 'public'),
+    },
+    compress: true,
+    port: 8080,
     historyApiFallback: true,
   },
   plugins: [
